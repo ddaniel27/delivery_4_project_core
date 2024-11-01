@@ -26,12 +26,12 @@ type Nomination struct {
 }
 
 type Metadata struct {
-	IsUploaded bool   `json:"isUploaded" bson:"isUploaded"`
-	IsPublic   bool   `json:"isPublic" bson:"isPublic"`
+	IsUploaded bool   `json:"is_uploaded" bson:"is_uploaded"`
+	IsPublic   bool   `json:"is_public" bson:"is_public"`
 	Filename   string `json:"filename" bson:"filename"`
 	Filetype   string `json:"filetype" bson:"filetype"`
 	Filesize   int64  `json:"filesize" bson:"filesize"`
-	ObjectKey  string `json:"objectKey" bson:"objectKey"`
+	ObjectKey  string `json:"object_key" bson:"object_key"`
 	Duration   int64  `json:"duration" bson:"duration"`
 	CreatedAt  int64  `json:"created_at" bson:"created_at"`
 	UpdatedAt  int64  `json:"updated_at" bson:"updated_at"`
